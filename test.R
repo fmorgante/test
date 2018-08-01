@@ -19,3 +19,11 @@ samples1000 <- rnorm(1000, mean=0, sd=2)
 mean(samples1000)
 sd(samples1000)
 
+###Let's add even more samples
+samples10000 <- rnorm(10000, mean=0, sd=2)
+
+###Check mean and sd
+mean(samples10000)
+sd(samples10000)
+
+

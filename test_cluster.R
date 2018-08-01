@@ -8,6 +8,7 @@
 ###Drawn 100 samples from a normal distribution with mean=0 and sd=2
 samples <- rnorm(100, mean=0, sd=2)
 
-###Check mean and sd
+###Check mean, sd and variance 
 mean(samples)
 sd(samples)
+var(samples)
